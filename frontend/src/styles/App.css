@@ -1,0 +1,136 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.home-heading {
+  font-size: 3rem;
+  color: #05445e;
+  margin-bottom: 2.5rem;
+  font-weight: bold;
+}
+
+.home-buttons {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.button-home {
+  background-color: #71c9ce;
+  color: #ffffff;
+  border: none;
+  padding: 0.8rem 2rem;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease,
+    box-shadow 0.3s ease;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.button-home:hover {
+  background-color: #05445e;
+  transform: translateY(-3px); /* Lift effect */
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.button-home:active {
+  transform: translateY(0); /* Remove lift on click */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.create-task {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.create-task-heading {
+  font-size: 2.5rem;
+  color: #05445e;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+}
+
+.form-container {
+  border: 2px solid #71c9ce;
+  padding: 2rem;
+  border-radius: 10px;
+  background-color: #cbf1f5;
+}
+
+.task-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.task-form label {
+  font-size: 1.1rem;
+  color: #05445e;
+  font-weight: bold;
+}
+
+.task-form input,
+.task-form textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #71c9ce;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.task-form button {
+  background-color: #71c9ce;
+  color: #fff;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.task-form button:hover {
+  background-color: #05445e;
+}
+
+.view-tasks {
+  padding: 1.5rem;
+}
+
+.view-tasks h2 {
+  font-size: 2rem;
+  color: #05445e;
+  margin-bottom: 1rem;
+}
+
+.filter-buttons {
+  margin-bottom: 1.5rem;
+}
+
+.filter-buttons button {
+  margin-right: 0.5rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #71c9ce;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.filter-buttons button.active {
+  background-color: #05445e;
+}
+
+.filter-buttons button:hover {
+  background-color: #05445e;
+}

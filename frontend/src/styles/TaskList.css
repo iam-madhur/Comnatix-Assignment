@@ -1,0 +1,8 @@
+.task-list {
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 2rem;
+  row-gap: 2rem;
+  column-gap: 4rem; 
+  justify-content: flex-start; 
+}
